@@ -1,0 +1,81 @@
+body{
+    margin-top: 100px;
+}
+  @media only screen and (min-width : 320px) 
+  (max-width : 480px){
+        
+    }
+
+.text{
+    text-align: justify;
+}
+.text1 , .fbox ,h2,button{
+    text-align: center;
+}
+
+.jumbotron{
+    margin-top: 60px;
+}
+footer{
+    margin-bottom: 15px;
+    background-color: lightgrey;
+    padding: 5px;
+}
+.jump{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+div span{
+    font-size: 30px;
+}
+.slide-image{
+   width: auto;
+  height: 500px;
+  max-height: 500px
+}
+/**********Contact***********/
+form{
+    border: 2px solid gray;
+    padding:10px ;
+    border-radius: 4px;
+    margin: 0 auto;
+    box-shadow: 3px 0px 2px 2px;
+    width: 500px;
+    }
+form input{
+        width: 100%;
+        border-radius: 4px;
+    }
+#message{
+        width: 100%;
+    border-radius: 4px;
+    background:#ecf2f3;
+}
+#submit{
+           height: 25px;
+    background:rgba(22, 147, 239, 0.58);;
+}
+.row{
+margin-top: 100px;
+}
+/*Carousel fade*/
+.carousel.fade{
+        opacity: 1;
+}
+.carousel.fade .item{
+    transition:opacity ease-out .7s;
+    left:0;
+    opacity: 0;
+    top: 0;
+    position: absolute;
+    width: 100%;
+    display: block;
+}
+.carousel.fade .item:first-child{
+    top: auto;
+    opacity: 1;
+    position: relative;
+}
+.carousel.fade .item .active{
+
+    opacity: 1;
+}
